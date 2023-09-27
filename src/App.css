@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.apptitle{
+  color: rgb(67, 125, 233);
+}
+
+.home__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home__container > * {
+  margin-bottom: 10px;
+}
+.home__header {
+  color: rgb(129, 129, 129);
+  margin-bottom: 30px;
+}
+.username__input {
+  padding: 10px;
+  width: 50%;
+}
+
+.roomname__input{
+  padding: 10px;
+  width: 50%;
+}
+
+.home__cta {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(67, 125, 233);
+  color: #F9F5EB;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+
+#chatpage{
+  display: flex;
+  flex-direction: row;
+}
+
+#chatbodycontainer{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  display: grid;
+  justify-self: center;
+}
+
+#announcement{
+  margin: 3px;
+  justify-self: center;
+  border: solid 2px rgb(67, 125, 233);
+  border-radius: 10px;
+  padding: 3px;
+  font-weight: 200;
+}
+
+#announced_text{
+  margin: 0px;
+}
+
+#message_container{
+  display: grid;
+}
+
+#chatform{
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  width: 100%;
+  margin-top: 1%;
+}
+
+#inputmessage{
+  width: 100%;
+}
+
+#sendbtn{
+  color: white;
+  background-color: rgb(67, 125, 233);
+  width: 15%;
+}
+
+
+#chatpagetitle {
+  color:rgb(67, 125, 233);
+  display: grid;
+  font-size: large;
+  justify-content: center;
+}
+
+#message_received{
+  justify-content: right;
+  width:max-content;
+  color: rgb(67, 125, 233);
+  background-color: white;
+  border: solid 2px rgb(67, 125, 233);
+  border-radius: 10px;
+  display: grid;
+  margin: 5px;
+  padding: 5px;
+}
+
+#message_sent{
+  margin: 5px;
+  padding: 5px;
+  justify-self: right;
+  color: white;
+  background-color: rgb(67, 125, 233);
+  border-radius: 10px;
+}
+
+#sender_name{
+  color:rgb(255, 255, 255);
+  margin: 1px;
+  justify-content: left;
+}
+
+#receiver_name{
+  color:rgb(67, 125, 233);
+  margin: 1px;
+  justify-content: left;
+}
+
+#typingstatus{
+  font-size: smaller;
+  font-weight: bold;
+  margin: 5px;
+}
+
+#message_text{
+  margin: 1.5px;
+}
+
+#member_list_container{
+  width: 20%;
+  margin: 5px;
+}
+
+#member_list_title{
+  color: rgb(67, 125, 233);
+  text-align: center;
+}
+
+.vertical-line {
+  border-left: 5px solid rgb(67, 125, 233);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#leavebtn{
+  margin: 5px;
+}
+
+.homepage_header{
+  display: grid;
+  width: 100%;
+}
+
+.appName{
+  justify-self: center;
+  color: rgb(67, 125, 233);
+}
