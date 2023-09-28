@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Server link for this InstaChatApp - https://github.com/Piyushke12/InstaChat-Server
 
 ## Available Scripts
 
